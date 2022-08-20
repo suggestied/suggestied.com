@@ -1,22 +1,20 @@
+import { useState } from "react";
 import Vector1 from "../assets/vector";
 import Vector2 from "../assets/vector2";
-import boat from "../assets/boat.png";
-import Box from "../components/box";
-import Features from "../components/features";
-import Pricing from "../components/pricing";
 import Contact from "../components/dialogs/contact";
-import { useState } from "react";
-import Stats from "../components/stats";
+import Features from "../components/features";
 import Footer from "../components/footer";
-import PortfolioList from "../components/portfolio";
 import Navbar from "../components/navbar";
+import PortfolioList from "../components/portfolio";
+import Pricing from "../components/pricing";
+import Stats from "../components/stats";
 
 function Home() {
-  let [isOpen, setIsOpen] = useState(false);
+  let [isOpen, setisOpen] = useState(false);
 
   return (
     <div className="w-full snap-y scroll-smooth">
-      <Contact isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Contact isOpen={isOpen} setisOpen={setisOpen} />
       <div className="inset-0 absolute">
         <Navbar />
       </div>
@@ -46,7 +44,7 @@ function Home() {
           </div>
           <div className="inset-0 relative text-center w-full mx-auto text-center">
             <p className="text-md inline leading-[normal] font-mono text-gray-500 mix-blend-difference">
-              FREELANCER UI/UX DESIGNER &amp; DEVELOPER
+              FREELANCER Ui/UX DESiGNER &amp; DEVELOPER
               <br />
             </p>
             <p className="overflow-hidden mix-blend-color justify-items-center w-full md:w-2/3 text-center mx-auto flex justify-center flex-wrap break-normal font-medium text-black text-[40px] leading-[normal]">
@@ -72,7 +70,7 @@ function Home() {
           <div className="relative flex overflow-x-hidden w-full text-white font-mono uppercase">
             <div className="animate-marquee whitespace-nowrap">
               <span className="text-4xl mx-4">Front-end developer</span>
-              <span className="text-4xl mx-4">UI / UX Designer</span>
+              <span className="text-4xl mx-4">Ui / UX Designer</span>
               <span className="text-4xl mx-4">Back-end developer</span>
               <span className="text-4xl mx-4">System Administrator</span>
               <span className="text-4xl mx-4">Web3 Developer</span>
@@ -80,7 +78,7 @@ function Home() {
 
             <div className="absolute top-0 animate-marquee2 whitespace-nowrap">
               <span className="text-4xl mx-4">Front-end developer</span>
-              <span className="text-4xl mx-4">UI / UX Designer</span>
+              <span className="text-4xl mx-4">Ui / UX Designer</span>
               <span className="text-4xl mx-4">Back-end developer</span>
               <span className="text-4xl mx-4">System Administrator</span>
               <span className="text-4xl mx-4">Web3 Developer</span>
@@ -99,7 +97,7 @@ function Home() {
 
       <div className="w-full">
         <div className="bg-gray-50 p-12 ">
-          <Pricing setIsOpen={setIsOpen} />
+          <Pricing setisOpen={setisOpen} />
           <PortfolioList />
         </div>
       </div>

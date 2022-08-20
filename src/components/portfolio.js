@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import FrogGameImage from "../assets/froggame.png";
-import GamblrImage from "../assets/gamblr.png";
+import FrogGameimage from "../assets/froggame.png";
+import Gamblrimage from "../assets/gamblr.png";
 
 const products = [
   {
@@ -8,7 +8,7 @@ const products = [
     name: "Frog game",
     description: "NFT Project",
     href: "/portfolio/frog-game",
-    imageSrc: FrogGameImage,
+    imageSrc: FrogGameimage,
     imageAlt: "image",
   },
   {
@@ -16,7 +16,7 @@ const products = [
     name: "Gamblr",
     description: "Casino",
     href: "/portfolio/casino",
-    imageSrc: GamblrImage,
+    imageSrc: Gamblrimage,
     imageAlt: "image",
   },
 ];

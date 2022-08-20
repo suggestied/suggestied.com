@@ -1,12 +1,11 @@
-// Import check.svg
-import Check from "../assets/check.svg";
+// import check.svg
 
 const features = [
   {
     name: "Design and Build",
     price: "$1750",
     description:
-      "I will design and build a website for you from scratch. This includes everything from the initial planning and conceptualization stages all the way through to the final implementation and launch of the site. I will work with you closely to ensure that the end result is a website that meets your specific needs and requirements.",
+      "i will design and build a website for you from scratch. This includes everything from the initial planning and conceptualization stages all the way through to the final implementation and launch of the site. i will work with you closely to ensure that the end result is a website that meets your specific needs and requirements.",
     features: [
       "Complete website design and build",
       "Prototyping and wireframing",
@@ -17,7 +16,7 @@ const features = [
     name: "Hourly rate",
     price: "$50/hr",
     description:
-      "If you're looking for something a little less comprehensive, I also offer an hourly rate for website design and development services. This option is perfect for those who already have a good idea of what they want their website to look and feel like, and just need someone to execute on their vision. If you're looking for a web3 project to be made this will be the perfect option for you.",
+      "if you're looking for something a little less comprehensive, i also offer an hourly rate for website design and development services. This option is perfect for those who already have a good idea of what they want their website to look and feel like, and just need someone to execute on their vision. if you're looking for a web3 project to be made this will be the perfect option for you.",
     features: [
       "For small tasks or websites that need to include a back-end or a smart contract",
     ],
@@ -30,7 +29,7 @@ export default function Pricing(props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg text-orange-600 font-semibold">
-            PROFESSIONAL WEBSITE
+            PROFESSiONAL WEBSiTE
           </h2>
           <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
             Prices
@@ -93,7 +92,7 @@ export default function Pricing(props) {
                   ))}
                   <div
                     onClick={() => {
-                      props.setIsOpen(true);
+                      props.setisOpen(true);
                     }}
                     className="w-full cursor-pointer bg-blue-500/70 hover:bg-blue-500 text-blue-50 px-12 text-center py-6 mt-4"
                   >

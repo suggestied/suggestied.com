@@ -1,4 +1,4 @@
-import FrogGameImage from "../assets/froggame.png";
+import FrogGameimage from "../assets/froggame.png";
 
 /* This example requires Tailwind CSS v2.0+ */
 const stats = [
@@ -56,7 +56,7 @@ export default function Example() {
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
-                src={FrogGameImage}
+                src={FrogGameimage}
                 alt=""
               />
               <div className="absolute inset-0 bg-orange-500/30 mix-blend-multiply" />
@@ -102,15 +102,15 @@ export default function Example() {
                 clients worldwide.
               </p>
               <p className="text-base leading-7">
-                Oh yeah. I'm suggestied, let's talk in first person. I've been
-                programming since 2016, I'm a self-taught programmer and I'm
+                Oh yeah. i'm suggestied, let's talk in first person. i've been
+                programming since 2016, i'm a self-taught programmer and i'm
                 always looking for new challenges.
               </p>
               <p className="text-base leading-7">
-                I've completed over 30 projects for 25+ different clients, and
-                I'm always open to new projects. The hourly rate i've
+                i've completed over 30 projects for 25+ different clients, and
+                i'm always open to new projects. The hourly rate i've
                 established for my work is $50 per hour, but depending on the
-                project, I may be open to a lower rate. I'm also willing to
+                project, i may be open to a lower rate. i'm also willing to
                 negotiate a salary for more regular work.
               </p>
             </div>

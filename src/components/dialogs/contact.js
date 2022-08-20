@@ -1,30 +1,12 @@
-import { useState } from "react";
-import { Dialog } from "@headlessui/react";
+import { ChatAlt2Icon, InboxIcon } from "@heroicons/react/outline";
 import DialogComponent from "../dialog";
-import {
-  AnnotationIcon,
-  ChatAlt2Icon,
-  ChatAltIcon,
-  DocumentReportIcon,
-  HeartIcon,
-  InboxIcon,
-  MenuIcon,
-  PencilAltIcon,
-  QuestionMarkCircleIcon,
-  ReplyIcon,
-  SparklesIcon,
-  TrashIcon,
-  UsersIcon,
-  XIcon,
-} from "@heroicons/react/outline";
-import { ChevronDownIcon } from "@heroicons/react/solid";
 
 function Contact(props) {
   const contact = [
     {
       name: "Email",
       description:
-        "You can reach me through my email. I will get back to you as soon as possible.",
+        "You can reach me through my email. i will get back to you as soon as possible.",
       href: "mailto:suggestied@gmail.com",
       icon: InboxIcon,
     },
@@ -32,7 +14,7 @@ function Contact(props) {
     {
       name: "Telegram",
       description:
-        "Besides email, I can be reached through Telegram. I will get back to you faster on telegram.",
+        "Besides email, i can be reached through Telegram. i will get back to you faster on telegram.",
       href: "https://t.me/suggestied",
       icon: ChatAlt2Icon,
     },
@@ -54,7 +36,7 @@ function Contact(props) {
       title="Contact Us"
       description="We're here to help. Get in touch with us."
       isOpen={props.isOpen}
-      setIsOpen={props.setIsOpen}
+      setisOpen={props.setisOpen}
     >
       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">

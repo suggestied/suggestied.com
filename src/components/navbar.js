@@ -1,4 +1,4 @@
-import { Popover, Transition } from "@headlessui/react";
+import { Popover } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
 export default function Navbar({
@@ -18,18 +18,16 @@ export default function Navbar({
             </Link>
           </div>
           <nav className="flex space-x-10 hidden">
-            <a
-              href="#"
+            <Link
               className={`text-base font-medium text-${textColor} opacity-70 hover:opacity-100 cursor-pointer `}
             >
               Pricing
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
               className={`text-base font-medium text-${textColor} opacity-70 hover:opacity-100 cursor-pointer `}
             >
               Docs
-            </a>
+            </Link>
           </nav>
         </div>
       </div>

@@ -1,35 +1,34 @@
 /* This example requires Tailwind CSS v2.0+ */
 import {
-  HomeIcon,
-  GlobeAltIcon,
-  cogIcon,
-  SearchIcon,
   CogIcon,
+  GlobeAltIcon,
+  HomeIcon,
+  SearchIcon,
 } from "@heroicons/react/outline";
 
 const features = [
   {
     name: "Design and Build",
     description:
-      "Building websites in my core business. I like to do this well. I combine design, development, wishes and conversion into one whole. That whole is your new website.",
+      "Building websites in my core business. i like to do this well. i combine design, development, wishes and conversion into one whole. That whole is your new website.",
     icon: GlobeAltIcon,
   },
   {
     name: "Website management and maintenance",
     description:
-      "Looking for someone who can maintain and manage your website? Or could your website use an update? Here I am!",
+      "Looking for someone who can maintain and manage your website? Or could your website use an update? Here i am!",
     icon: CogIcon,
   },
   {
     name: "Search Engine Optimization",
     description:
-      "We also have to keep our great friend Google a friend. With the right structure, code, text and tricks I try to get you as high as possible through SEO.",
+      "We also have to keep our great friend Google a friend. With the right structure, code, text and tricks i try to get you as high as possible through SEO.",
     icon: SearchIcon,
   },
   {
     name: "Everything in one place",
     description:
-      "With my full service advertising agency I do more than web development. I am also Art Director and supply advertising products for indoor and outdoor use.",
+      "With my full service advertising agency i do more than web development. i am also Art Director and supply advertising products for indoor and outdoor use.",
     icon: HomeIcon,
   },
 ];
@@ -40,15 +39,15 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg text-orange-600 font-semibold">
-            PROFESSIONAL WEBSITE
+            PROFESSiONAL WEBSiTE
           </h2>
           <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
             Have a website made
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Do you want to have a new website made? I can see your new website
-            fully customized development and design. I would like to link the
-            website to your own custom custom CMS. Because I can customize
+            Do you want to have a new website made? i can see your new website
+            fully customized development and design. i would like to link the
+            website to your own custom custom CMS. Because i can customize
             everything programming, the possibilities are endless.
           </p>
         </div>

@@ -1,10 +1,10 @@
-import FrogGameImage from "../../assets/froggame.png";
+import FrogGameimage from "../../assets/froggame.png";
 import PortfolioTemplate from "../../templates/portfolio";
 
 const data = {
   name: "Frog Game",
   description: "A simple game of frogging.",
-  image: FrogGameImage,
+  image: FrogGameimage,
   testimonial:
     "Suggestied delivered the entire game in 10 days, while the deadline was set to 30 days. Very hard worker, would recommend.",
   client: "Lonely frogs lambo club",
@@ -15,15 +15,15 @@ const data = {
       description: "30 days",
     },
     { name: "Finished within", description: "10 days" },
-    { name: "Type", description: "Frontend (UI/UX) & Smart contract" },
+    { name: "Type", description: "Frontend (Ui/UX) & Smart contract" },
     {
       name: "How much would it cost with my current rate?",
       description:
-        "For the UI, Web3 intergration & game smart contract it would be about $2500",
+        "For the Ui, Web3 intergration & game smart contract it would be about $2500",
     },
     {
       name: "Hours",
-      description: "40 Hours, I spent on this project alone.",
+      description: "40 Hours, i spent on this project alone.",
     },
   ],
 };
