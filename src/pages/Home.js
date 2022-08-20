@@ -9,6 +9,7 @@ import { useState } from "react";
 import Stats from "../components/stats";
 import Footer from "../components/footer";
 import PortfolioList from "../components/portfolio";
+import Navbar from "../components/navbar";
 
 function Home() {
   let [isOpen, setIsOpen] = useState(false);
@@ -16,10 +17,14 @@ function Home() {
   return (
     <div className="w-full snap-y scroll-smooth">
       <Contact isOpen={isOpen} setIsOpen={setIsOpen} />
-      <div className="relative w-full flex h-screen snap-center">
+      <div className="inset-0 absolute">
+        <Navbar />
+      </div>
+      <div className="relative w-full flex h-screen -my-12 snap-center">
         <div className="inset-0 absolute">
           <Vector1></Vector1>
         </div>
+
         <div className="absolute w-1/2 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <div className="absolute left-[0.37%] right-[70.86%] top-[25.65%] bottom-[-152.65%] -rotate-6 blur-3xl opacity-20">
             <div
@@ -70,6 +75,7 @@ function Home() {
               <span className="text-4xl mx-4">UI / UX Designer</span>
               <span className="text-4xl mx-4">Back-end developer</span>
               <span className="text-4xl mx-4">System Administrator</span>
+              <span className="text-4xl mx-4">Web3 Developer</span>
             </div>
 
             <div className="absolute top-0 animate-marquee2 whitespace-nowrap">
@@ -77,6 +83,7 @@ function Home() {
               <span className="text-4xl mx-4">UI / UX Designer</span>
               <span className="text-4xl mx-4">Back-end developer</span>
               <span className="text-4xl mx-4">System Administrator</span>
+              <span className="text-4xl mx-4">Web3 Developer</span>
             </div>
           </div>
         </div>

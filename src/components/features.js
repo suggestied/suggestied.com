@@ -2,33 +2,34 @@
 import {
   HomeIcon,
   GlobeAltIcon,
-  CogIcon,
+  cogIcon,
   SearchIcon,
+  CogIcon,
 } from "@heroicons/react/outline";
 
 const features = [
   {
-    name: "Ontwerpen en Bouwen",
+    name: "Design and Build",
     description:
-      "Websites bouwen in mijn core business. Dit doen ik dan ook graag goed. Ik combineer design, development, wensen en conversie naar één geheel. Dat geheel is jouw nieuwe website.",
+      "Building websites in my core business. I like to do this well. I combine design, development, wishes and conversion into one whole. That whole is your new website.",
     icon: GlobeAltIcon,
   },
   {
-    name: "Website beheer en onderhoud",
+    name: "Website management and maintenance",
     description:
-      "Opzoek naar iemand die jouw website kan onderhouden en beheren? Of kan jouw website wel een update gebruiken? Hier ben ik!",
+      "Looking for someone who can maintain and manage your website? Or could your website use an update? Here I am!",
     icon: CogIcon,
   },
   {
-    name: "Zoek machine optimalisatie",
+    name: "Search Engine Optimization",
     description:
-      "Onze grote vriend Google moeten we ook te vriend houden. Met de juiste opbouw, code, tekst en tricks probeer ik je zo hoog mogelijk te krijgen doormiddel van SEO.",
+      "We also have to keep our great friend Google a friend. With the right structure, code, text and tricks I try to get you as high as possible through SEO.",
     icon: SearchIcon,
   },
   {
-    name: "Alles op 1 plek",
+    name: "Everything in one place",
     description:
-      "Met mijn full service reclamebureau doe ik meer dan webdevelopment. Ik ben namelijk ook Art Director en lever reclame producten voor binnen en buiten.",
+      "With my full service advertising agency I do more than web development. I am also Art Director and supply advertising products for indoor and outdoor use.",
     icon: HomeIcon,
   },
 ];
@@ -39,16 +40,16 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg text-orange-600 font-semibold">
-            PROFESSIONELE WEBSITE
+            PROFESSIONAL WEBSITE
           </h2>
           <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
-            Website laten maken
+            Have a website made
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Wil je een nieuwe website laten maken? Ik kan jouw nieuwe website
-            geheel op maat ontwikkelen en ontwerpen. Graag koppel ik de website
-            aan een eigen custom maatwerk CMS. Doordat ik alles op maat kan
-            programmeren, zijn de mogelijkheden eindeloos.
+            Do you want to have a new website made? I can see your new website
+            fully customized development and design. I would like to link the
+            website to your own custom custom CMS. Because I can customize
+            everything programming, the possibilities are endless.
           </p>
         </div>
 

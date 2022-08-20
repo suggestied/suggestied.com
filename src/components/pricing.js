@@ -3,23 +3,23 @@ import Check from "../assets/check.svg";
 
 const features = [
   {
-    name: "Ontwerpen en Bouwen",
-    price: "€1500",
+    name: "Design and Build",
+    price: "$1750",
     description:
-      "Websites bouwen in mijn core business. Dit doen ik dan ook graag goed. Ik combineer design, development, wensen en conversie naar één geheel. Dat geheel is jouw nieuwe website.",
+      "I will design and build a website for you from scratch. This includes everything from the initial planning and conceptualization stages all the way through to the final implementation and launch of the site. I will work with you closely to ensure that the end result is a website that meets your specific needs and requirements.",
     features: [
-      "Opzoek naar iemand die jouw website kan onderhouden en beheren?",
-      "Of kan jouw website wel een update gebruiken?",
+      "Complete website design and build",
+      "Prototyping and wireframing",
+      "Search engine optimization",
     ],
   },
   {
-    name: "Website beheer en onderhoud",
-    price: "€500",
+    name: "Hourly rate",
+    price: "$50/hr",
     description:
-      "Opzoek naar iemand die jouw website kan onderhouden en beheren? Of kan jouw website wel een update gebruiken? Hier ben ik!",
+      "If you're looking for something a little less comprehensive, I also offer an hourly rate for website design and development services. This option is perfect for those who already have a good idea of what they want their website to look and feel like, and just need someone to execute on their vision. If you're looking for a web3 project to be made this will be the perfect option for you.",
     features: [
-      "Opzoek naar iemand die jouw website kan onderhouden en beheren?",
-      "Of kan jouw website wel een update gebruiken?",
+      "For small tasks or websites that need to include a back-end or a smart contract",
     ],
   },
 ];
@@ -30,13 +30,13 @@ export default function Pricing(props) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-lg text-orange-600 font-semibold">
-            PROFESSIONELE WEBSITE
+            PROFESSIONAL WEBSITE
           </h2>
           <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
-            Tarieven
+            Prices
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Wil je een nieuwe website laten maken?
+            Do you want to have a new website made?
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export default function Pricing(props) {
                       {feature.name}
                     </p>
                   </dt>
-                  {/* Price */}
+                  {/*Price */}
                   <dd className="mt-2 text-4xl font-bold text-gray-900">
                     {feature.price}
                   </dd>

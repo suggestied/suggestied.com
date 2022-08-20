@@ -1,38 +1,22 @@
+import { Link } from "react-router-dom";
+import FrogGameImage from "../assets/froggame.png";
+import GamblrImage from "../assets/gamblr.png";
+
 const products = [
   {
     id: 1,
-    name: "Novonode",
-    domain: "novonode.com",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-05-related-product-01.jpg",
+    name: "Frog game",
+    description: "NFT Project",
+    href: "/portfolio/frog-game",
+    imageSrc: FrogGameImage,
     imageAlt: "image",
   },
   {
     id: 2,
-    name: "Novonode",
-    domain: "novonode.com",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-05-related-product-01.jpg",
-    imageAlt: "image",
-  },
-  {
-    id: 3,
-    name: "Novonode",
-    domain: "novonode.com",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-05-related-product-01.jpg",
-    imageAlt: "image",
-  },
-  {
-    id: 4,
-    name: "Novonode",
-    domain: "novonode.com",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/product-page-05-related-product-01.jpg",
+    name: "Gamblr",
+    description: "Casino",
+    href: "/portfolio/casino",
+    imageSrc: GamblrImage,
     imageAlt: "image",
   },
 ];
@@ -45,14 +29,14 @@ export default function PortfolioList() {
           <h2 className="text-lg font-medium text-gray-900">
             Some of my works :)
           </h2>
-          <a
+          {/* <a
             href="#"
             className="whitespace-nowrap text-sm font-medium text-indigo-600 hover:text-indigo-500"
           >
             View all<span aria-hidden="true"> &rarr;</span>
-          </a>
+          </a> */}
         </div>
-        <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+        <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-2">
           {products.map((product) => (
             <div key={product.id} className="relative group">
               <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden bg-gray-100">
@@ -72,13 +56,15 @@ export default function PortfolioList() {
               </div>
               <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900 space-x-8">
                 <h3>
-                  <a href="#">
+                  <Link to={product.href}>
                     <span aria-hidden="true" className="absolute inset-0" />
                     {product.name}
-                  </a>
+                  </Link>
                 </h3>
               </div>
-              <p className="mt-1 text-sm text-gray-500">{product.domain}</p>
+              <p className="mt-1 text-sm text-gray-500">
+                {product.description}
+              </p>
             </div>
           ))}
         </div>

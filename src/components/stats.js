@@ -1,9 +1,11 @@
+import FrogGameImage from "../assets/froggame.png";
+
 /* This example requires Tailwind CSS v2.0+ */
 const stats = [
-  { label: "Founded", value: "2021" },
-  { label: "Employees", value: "5" },
-  { label: "Beta Users", value: "521" },
-  { label: "Raised", value: "$25M" },
+  { label: "Programming since", value: "2016" },
+  { label: "Finished projects", value: "30+" },
+  { label: "Clients", value: "25+" },
+  { label: "Designing since", value: "2015" },
 ];
 
 export default function Example() {
@@ -54,23 +56,16 @@ export default function Example() {
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
-                src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
+                src={FrogGameImage}
                 alt=""
               />
               <div className="absolute inset-0 bg-orange-500/30 mix-blend-multiply" />
-              <div className="absolute inset-0 bg-gradient-to-t from-orange-600 via-orange-600 opacity-70" />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900 opacity-70" />
               <div className="relative px-8">
-                <div>
-                  <img
-                    className="h-12"
-                    src="https://tailwindui.com/img/logos/workcation.svg?color=white"
-                    alt="Workcation"
-                  />
-                </div>
                 <blockquote className="mt-8">
                   <div className="relative text-lg font-medium text-white md:flex-grow">
                     <svg
-                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-orange-400"
+                      className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-400 opacity-50"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
@@ -78,15 +73,15 @@ export default function Example() {
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
                     <p className="relative">
-                      Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                      Consectetur pretium in volutpat, diam. Montes, magna
-                      cursus nulla feugiat dignissim id lobortis amet.
+                      Suggestied delivered the entire game in 10 days, while the
+                      deadline was set to 30 days. Very hard worker, would
+                      recommend.
                     </p>
                   </div>
 
                   <footer className="mt-4">
-                    <p className="text-base font-semibold text-orange-200">
-                      Sarah Williams, CEO at Workcation
+                    <p className="text-base font-semibold text-gray-200">
+                      - Lonely frogs lambo club
                     </p>
                   </footer>
                 </blockquote>
@@ -99,30 +94,24 @@ export default function Example() {
           {/* Content area */}
           <div className="pt-12 sm:pt-16 lg:pt-20">
             <h2 className="text-3xl text-gray-900 font-bold tracking-tight sm:text-4xl sm:tracking-tight">
-              On a mission to empower teams
+              On a mission to deliver the best possible service
             </h2>
             <div className="mt-6 text-gray-500 space-y-6">
               <p className="text-lg">
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc
-                nisl netus morbi vel porttitor vitae ut. Amet vitae fames
-                senectus vitae.
+                Suggestied is a freelance developer & designer with satisfied
+                clients worldwide.
               </p>
               <p className="text-base leading-7">
-                Sollicitudin tristique eros erat odio sed vitae, consequat
-                turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                eu viverra donec ut volutpat donec laoreet quam urna.
-                Sollicitudin tristique eros erat odio sed vitae, consequat
-                turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                eu viverra donec ut volutpat donec laoreet quam urna.
+                Oh yeah. I'm suggestied, let's talk in first person. I've been
+                programming since 2016, I'm a self-taught programmer and I'm
+                always looking for new challenges.
               </p>
               <p className="text-base leading-7">
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                semper. Pellentesque in venenatis vestibulum consectetur nibh
-                id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-                fermentum lacus in. Viverra.
+                I've completed over 30 projects for 25+ different clients, and
+                I'm always open to new projects. The hourly rate i've
+                established for my work is $50 per hour, but depending on the
+                project, I may be open to a lower rate. I'm also willing to
+                negotiate a salary for more regular work.
               </p>
             </div>
           </div>
@@ -144,13 +133,6 @@ export default function Example() {
                 </div>
               ))}
             </dl>
-            <div className="mt-10">
-              <a href="#" className="text-base font-medium text-orange-600">
-                {" "}
-                Learn more about how we're changing the world{" "}
-                <span aria-hidden="true">&rarr;</span>{" "}
-              </a>
-            </div>
           </div>
         </div>
       </div>
