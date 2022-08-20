@@ -38,7 +38,7 @@ export default function Features() {
     <div className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-lg text-orange-600 font-semibold">
+          <h2 className="text-lg uppercase text-orange-600 font-semibold">
             PROFESSiONAL WEBSiTE
           </h2>
           <p className="mt-2 text-3xl leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
