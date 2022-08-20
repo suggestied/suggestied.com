@@ -43,7 +43,7 @@ function Home() {
             />
           </div>
           <div className="inset-0 relative text-center w-full mx-auto text-center">
-            <p className="text-md inline leading-[normal] font-mono text-gray-500 mix-blend-difference">
+            <p className="text-md inline leading-[normal] font-mono text-gray-500 mix-blend-difference uppercase">
               FREELANCER Ui/UX DESiGNER &amp; DEVELOPER
               <br />
             </p>
