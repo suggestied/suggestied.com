@@ -1,10 +1,11 @@
+import CountUp from "react-countup";
 import FrogGameimage from "../assets/froggame.png";
 
 /* This example requires Tailwind CSS v2.0+ */
 const stats = [
   { label: "Programming since", value: "2016" },
-  { label: "Finished projects", value: "30+" },
-  { label: "Clients", value: "25+" },
+  { label: "Finished projects", value: "30" },
+  { label: "Clients", value: "25" },
   { label: "Designing since", value: "2015" },
 ];
 
@@ -128,7 +129,7 @@ export default function Example() {
                     {stat.label}
                   </dt>
                   <dd className="text-3xl font-bold tracking-tight text-gray-900">
-                    {stat.value}
+                    <CountUp start={0} end={stat.value} duration={0.8} />
                   </dd>
                 </div>
               ))}
