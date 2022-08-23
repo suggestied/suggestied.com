@@ -55,8 +55,6 @@ const AnimatorBox = (props) => {
   );
 };
 
-const FadeUp = batch(Fade());
-
 function Home() {
   let [isOpen, setisOpen] = useState(false);
 
