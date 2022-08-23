@@ -15,6 +15,46 @@ import Navbar from "../components/navbar";
 import PortfolioList from "../components/portfolio";
 import Pricing from "../components/pricing";
 import Stats from "../components/stats";
+
+import { motion, useAnimation } from "framer-motion";
+
+import { useInView } from "react-intersection-observer";
+
+import { useEffect } from "react";
+
+const boxVariant = {
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.5 },
+    marginRight: 0,
+  },
+  hidden: { opacity: 0.2, marginRight: -100 },
+};
+
+const AnimatorBox = (props) => {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    }
+  }, [control, inView]);
+
+  return (
+    <motion.div
+      className="box"
+      ref={ref}
+      variants={boxVariant}
+      initial="hidden"
+      animate={control}
+    >
+      {props.children}
+    </motion.div>
+  );
+};
+
 const FadeUp = batch(Fade());
 
 function Home() {
@@ -102,14 +142,20 @@ function Home() {
           <div className="inset-0 absolute h-full">
             <Vector2></Vector2>
           </div>
-          <Features />
+          <AnimatorBox>
+            <Features />
+          </AnimatorBox>
           <Stats />
         </div>
 
         <div className="w-full">
           <div className="bg-gray-50 p-12 ">
-            <Pricing setisOpen={setisOpen} />
-            <PortfolioList />
+            <AnimatorBox>
+              <Pricing setisOpen={setisOpen} />
+            </AnimatorBox>
+            <AnimatorBox>
+              <PortfolioList />
+            </AnimatorBox>
           </div>
         </div>
 
