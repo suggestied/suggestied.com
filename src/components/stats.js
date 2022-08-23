@@ -129,7 +129,11 @@ export default function Example() {
                     {stat.label}
                   </dt>
                   <dd className="text-3xl font-bold tracking-tight text-gray-900">
-                    <CountUp start={0} end={stat.value} duration={0.8} />
+                    <CountUp
+                      start={stat.value / 1.2}
+                      end={stat.value}
+                      duration={0.8}
+                    />
                   </dd>
                 </div>
               ))}
