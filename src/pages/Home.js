@@ -21,6 +21,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import { useEffect } from "react";
+import Incentives from "../components/incentives";
 
 const boxVariant = {
   visible: {
@@ -150,6 +151,9 @@ function Home() {
           <div className="bg-gray-50 p-12 ">
             <AnimatorBox>
               <Pricing setisOpen={setisOpen} />
+            </AnimatorBox>
+            <AnimatorBox>
+              <Incentives />
             </AnimatorBox>
             <AnimatorBox>
               <PortfolioList />
