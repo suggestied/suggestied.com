@@ -3,7 +3,7 @@
 const features = [
   {
     name: "Design and Build",
-    price: "$1750",
+    price: "Starts at $500",
     description:
       "i will design and build a website for you from scratch. This includes everything from the initial planning and conceptualization stages all the way through to the final implementation and launch of the site. i will work with you closely to ensure that the end result is a website that meets your specific needs and requirements.",
     features: [
@@ -14,7 +14,7 @@ const features = [
   },
   {
     name: "Hourly rate",
-    price: "$50/hr",
+    price: "$25/hr",
     description:
       "if you're looking for something a little less comprehensive, i also offer an hourly rate for website design and development services. This option is perfect for those who already have a good idea of what they want their website to look and feel like, and just need someone to execute on their vision. if you're looking for a web3 project to be made this will be the perfect option for you.",
     features: [
