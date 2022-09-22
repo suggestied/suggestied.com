@@ -1,18 +1,18 @@
 /* This example requires Tailwind CSS v2.0+ */
 const incentives = [
   {
-    name: "Free shipping",
+    name: "Working Techniques",
     imageSrc:
       "https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg",
     description:
-      "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+      "Niche skills, use real time insights, competitive analysis and a humanized approach towards the task helps us live up to and even exceed expectations",
   },
   {
-    name: "10-year warranty",
+    name: "Right Tools",
     imageSrc:
       "https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg",
     description:
-      "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+      "We have the right balance of industry-led practices and modern tools to comprehend the growth and success of your business.",
   },
   {
     name: "Exchanges",

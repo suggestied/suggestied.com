@@ -5,20 +5,28 @@ const features = [
     name: "Design and Build",
     price: "Starts at $500",
     description:
-      "i will design and build a website for you from scratch. This includes everything from the initial planning and conceptualization stages all the way through to the final implementation and launch of the site. i will work with you closely to ensure that the end result is a website that meets your specific needs and requirements.",
+      "Attract & retain quality customers with a custom designed website, that does not break the bank.",
     features: [
-      "Complete website design and build",
       "Prototyping and wireframing",
-      "Search engine optimization",
+      "Full Website Development",
+      "Search Engine Optimization",
+      "Custom Design",
+      "Responsive",
+      "High Quality",
+      "Secure",
     ],
   },
   {
     name: "Hourly rate",
     price: "$25/hr",
     description:
-      "if you're looking for something a little less comprehensive, i also offer an hourly rate for website design and development services. This option is perfect for those who already have a good idea of what they want their website to look and feel like, and just need someone to execute on their vision. if you're looking for a web3 project to be made this will be the perfect option for you.",
+      "Get unlimited support. Website updates, customizations, bug fixing when you want. Secured & monitored 24/7.",
     features: [
-      "For small tasks or websites that need to include a back-end or a smart contract",
+      "Website Customization",
+      "Bug Fixing",
+      "Small task",
+      "Website Update",
+      "Speed Optimization",
     ],
   },
 ];
