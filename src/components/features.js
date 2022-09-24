@@ -28,7 +28,7 @@ const features = [
   {
     name: "Everything in one place",
     description:
-      "With my full service advertising agency i do more than web development. i am also Art Director and supply advertising products for indoor and outdoor use.",
+      "From design and development to marketing, we offer services across all major domains and niches, for maximizing your site’s performance, conversion and to Increase the reach and visibility of your business.",
     icon: HomeIcon,
   },
 ];

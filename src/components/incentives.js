@@ -14,13 +14,6 @@ const incentives = [
     description:
       "We have the right balance of industry-led practices and modern tools to comprehend the growth and success of your business.",
   },
-  {
-    name: "Exchanges",
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg",
-    description:
-      "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
-  },
 ];
 
 export default function Incentives() {
@@ -33,11 +26,7 @@ export default function Incentives() {
               We built our business on customer service
             </h2>
             <p className="mt-4 text-gray-500">
-              At the beginning at least, but then we realized we could make a
-              lot more money if we kinda stopped caring about that. Our new
-              strategy is to write a bunch of things that look really good in
-              the headlines, then clarify in the small print but hope people
-              don't actually read it.
+              Push the boundaries of growth and success – Together.
             </p>
           </div>
           <div className="mt-16 grid grid-cols-1 gap-y-10 gap-x-8 lg:grid-cols-3">
