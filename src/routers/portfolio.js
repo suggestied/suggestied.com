@@ -9,15 +9,17 @@ export default function PortfolioRouter() {
 
   return (
     <Switch>
-      <Route path={`${path}/frog-game`}>
-        <FrogGame />
-      </Route>
-      <Route path={`${path}/casino`}>
-        <Casino />
-      </Route>
-      <Route path="*">
-        <Error404 />
-      </Route>
+      <div className="w-full overflow-hidden">
+        <Route path={`${path}/frog-game`}>
+          <FrogGame />
+        </Route>
+        <Route path={`${path}/casino`}>
+          <Casino />
+        </Route>
+        <Route path="*">
+          <Error404 />
+        </Route>
+      </div>
     </Switch>
   );
 }

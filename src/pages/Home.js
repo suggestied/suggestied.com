@@ -30,7 +30,7 @@ const boxVariant = {
     transition: { duration: 0.5 },
     marginRight: 0,
   },
-  hidden: { opacity: 0.2, marginRight: -100 },
+  hidden: { opacity: 0.2 },
 };
 
 const AnimatorBox = (props) => {
