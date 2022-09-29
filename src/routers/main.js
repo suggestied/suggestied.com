@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Error404 from "../pages/404";
-import Home from "../pages/Home";
+import BaseRouter from "./base";
 import PortfolioRouter from "./portfolio";
 
 import React, { useEffect } from "react";
@@ -23,16 +22,11 @@ export default function MainRouter() {
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/about">about</Route>
-
-        <Route exact path="/">
-          <Home />
-        </Route>
         <Route path="/portfolio">
           <PortfolioRouter />
         </Route>
-        <Route path="*">
-          <Error404 />
+        <Route path="/">
+          <BaseRouter />
         </Route>
       </Switch>
     </Router>
