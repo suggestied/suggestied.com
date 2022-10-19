@@ -24,13 +24,13 @@ export default function MainRouter() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/about">about</Route>
-
-        <Route exact path="/">
-          <Home />
-        </Route>
         <Route path="/portfolio">
           <PortfolioRouter />
         </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+
         <Route path="*">
           <Error404 />
         </Route>
