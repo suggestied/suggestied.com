@@ -8,8 +8,8 @@ export default function PortfolioRouter() {
   let { path } = useRouteMatch();
 
   return (
-    <div className="w-full overflow-hidden">
-      <Switch>
+    <Switch>
+      <div className="w-full overflow-hidden">
         <Route path={`${path}/frog-game`}>
           <FrogGame />
         </Route>
@@ -19,7 +19,7 @@ export default function PortfolioRouter() {
         <Route path="*">
           <Error404 />
         </Route>
-      </Switch>
-    </div>
+      </div>
+    </Switch>
   );
 }
